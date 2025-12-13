@@ -8,7 +8,7 @@ export const projectData = [
         src: './nextjs.svg',
       },
       {
-        src: './tailwind.svg',
+        src: './tailwind.png',
       },
       {
         src: './supabase.svg',
@@ -92,5 +92,41 @@ export const projectData = [
     screenshot: './screenshots/world-wise.png',
     live: 'world-wise-vert-omega.vercel.app',
     code: 'https://github.com/abubakar-sadiq001/world-wise',
+  },
+]
+
+// TECHNOLOGIES
+export const techStack = [
+  {
+    name: 'HTML',
+    icon: './html.png',
+  },
+  {
+    name: 'CSS',
+    icon: './css.png',
+  },
+  {
+    name: 'JavaScript',
+    icon: './js.svg',
+  },
+  {
+    name: 'React',
+    icon: './react.svg',
+  },
+  {
+    name: 'React Query',
+    icon: './react-query.svg',
+  },
+  {
+    name: 'Next.Js',
+    icon: './nextjs.svg',
+  },
+  {
+    name: 'TailwindCss',
+    icon: './tailwind.png',
+  },
+  {
+    name: 'Supabase',
+    icon: './supabase.svg',
   },
 ]

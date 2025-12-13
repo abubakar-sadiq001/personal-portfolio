@@ -72,10 +72,10 @@ function About() {
         <p className="about text-gray-400">
           It was popularised in the 1960s with the release of Letraset sheets
           containing Lorem Ipsum passages,{' '}
-          <p className="about text-gray-400">
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
-          </p>
+        </p>
+        <p className="about text-gray-400">
+          and more recently with desktop publishing software like Aldus
+          PageMaker including versions of Lorem Ipsum.
         </p>
         {/* </p> */}
         {/* <p className="about text-gray-400">
