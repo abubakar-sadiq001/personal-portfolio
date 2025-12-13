@@ -14,7 +14,7 @@ export const navLinks = [
   },
   {
     name: './icons8-x.svg',
-    href: 'https://github.com/abubakar-sadiq001',
+    href: 'https://x.com/scripter_js',
   },
 ]
 
@@ -56,8 +56,8 @@ export const projectData = [
       },
     ],
     screenshot: './screenshots/campus-site.png',
-    live: 'personal-finance-app-2zd7.vercel.app/',
-    code: 'https://github.com/abubakar-sadiq001/personal-finance-app',
+    live: 'https://abubakar-sadiq001.github.io/campus-website/edusite-home.html',
+    code: 'https://github.com/abubakar-sadiq001/campus-website',
   },
   {
     name: 'Rock paper scissors game',

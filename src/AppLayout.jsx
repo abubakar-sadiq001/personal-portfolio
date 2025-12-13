@@ -17,7 +17,6 @@ function AppLayout() {
       </div>
 
       <div>
-        {/* <h2 className="text-5xl">Projects</h2> */}
         <Projects />
       </div>
 

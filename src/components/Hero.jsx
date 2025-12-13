@@ -42,10 +42,7 @@ function Hero() {
         >
           Hi👋, I'm Sdik
         </h1>
-        {/* <p className="para my-4 w-full max-w-[500px] text-center text-[18px] text-gray-400">
-          A passionate and self taught front-end enginner, with strong potential
-          to upskill in further.
-        </p> */}
+
         <p className="para mt-3 w-full max-w-[500px] text-center text-[18px] text-gray-400 max-[505px]:text-[12px]">
           A passionate and self taught front-end enginner,
         </p>

@@ -18,7 +18,7 @@ function Contact() {
       {
         opacity: 1,
         y: 0,
-        delay: 1,
+        delay: 0.3,
         scrollTrigger: {
           trigger: '#form',
           start: 'top 80%',
