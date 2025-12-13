@@ -1,3 +1,24 @@
+export const navLinks = [
+  {
+    name: 'About',
+    href: '#about',
+  },
+
+  {
+    name: 'Projects',
+    href: '#projects',
+  },
+  {
+    name: 'Contact',
+    href: '#contact',
+  },
+  {
+    name: './icons8-x.svg',
+    href: 'https://github.com/abubakar-sadiq001',
+  },
+]
+
+// PROJECTS DATA
 export const projectData = [
   {
     name: 'Personal finance app',
@@ -22,7 +43,7 @@ export const projectData = [
   {
     name: 'Campus website',
     description:
-      'personal-finace-app is a full-stack application where you can create & manage (transactions, create budgets, pots, and recurring bills)',
+      'The campus website has (5) pages, the home page, about, course, blog and contact. it was built for learning purpose only. ',
     techStack: [
       {
         src: './html.png',
@@ -41,7 +62,7 @@ export const projectData = [
   {
     name: 'Rock paper scissors game',
     description:
-      'The game was built to help master state management and improve logic.',
+      'I built this game to help improve my problem solving skill and master state management logic.',
     techStack: [
       {
         src: './react.svg',
@@ -59,7 +80,8 @@ export const projectData = [
   },
   {
     name: 'Countries list',
-    description: 'This app fetches the world counties from an api.',
+    description:
+      'This app fetches the world counties from an api, including details, populations and so on.',
     techStack: [
       {
         src: './react.svg',
@@ -77,7 +99,8 @@ export const projectData = [
   },
   {
     name: 'World wise',
-    description: 'This app fetches the world counties from an api.',
+    description:
+      'This app helps in tracking and managing your travels or trips. it has a map feature that made easy in tracking travels to any place or city in the world',
     techStack: [
       {
         src: './react.svg',

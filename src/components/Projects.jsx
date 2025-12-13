@@ -1,41 +1,54 @@
 import { useGSAP } from '@gsap/react'
 import { projectData } from '../data/project-data'
 import gsap, { ScrollTrigger } from 'gsap/all'
+import { useRef } from 'react'
 
 gsap.registerPlugin(ScrollTrigger)
 
 function Projects() {
+  const scrollRef = useRef()
+
   useGSAP(() => {
-    gsap.fromTo(
-      '#Plist',
-      {
-        opacity: 0,
-        y: 30,
-      },
-      {
-        opacity: 1,
-        y: 0,
-        stagger: 0.7,
-        scrollTrigger: {
-          trigger: '#Plist',
-          start: 'top 80%',
+    const boxes = gsap.utils.toArray(scrollRef.current.children)
+
+    boxes.map((box) => {
+      gsap.fromTo(
+        box,
+        {
+          opacity: 0,
+          y: 50,
         },
-      },
-    )
+        {
+          opacity: 1,
+          y: 0,
+          stagger: 0.8,
+          scrollTrigger: {
+            trigger: box,
+            start: 'top 70%',
+          },
+        },
+      )
+    })
   }, [])
 
   return (
-    <div className="mt-[200px] items-center justify-center px-3.5">
+    <div
+      className="mt-[200px] items-center justify-center px-3.5"
+      id="projects"
+    >
       <div>
         {/* <div className="mx-auto flex w-[80%]">
           <h2 className="my-3 text-3xl">Projects</h2>
         </div> */}
 
-        <ul className="mx-auto flex max-w-[80%] flex-wrap justify-center gap-20">
+        <ul
+          className="mx-auto flex max-w-[80%] flex-wrap justify-center gap-20 max-[545px]:max-w-full"
+          ref={scrollRef}
+        >
           {projectData.map((data) => (
             <li
               key={data.name}
-              className="w-full max-w-[400px] min-w-[300px] rounded-md bg-[hsla(240,9%,9%,0.6)] p-5"
+              className="w-full max-w-[400px] min-w-[300px] rounded-md bg-[hsla(240,9%,9%,0.6)] p-5 max-[545px]:w-full max-[545px]:bg-yellow-500"
               id="Plist"
             >
               <div>

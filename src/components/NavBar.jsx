@@ -1,22 +1,4 @@
-const navLinks = [
-  {
-    name: 'Home',
-    href: '#',
-  },
-  {
-    name: 'About',
-    href: '#about',
-  },
-
-  {
-    name: 'Projects',
-    href: '#projects',
-  },
-  {
-    name: 'Contact',
-    href: '#contact',
-  },
-]
+import { navLinks } from '../data/project-data'
 
 function NavBar() {
   return (
@@ -24,8 +6,16 @@ function NavBar() {
       <ul className="flex items-center justify-around">
         {navLinks.map((nav) => (
           <li key={nav.name}>
-            <a href={nav.href} className="text-[13px] font-semibold">
-              {nav.name}
+            <a
+              href={nav.href}
+              className="text-[13px] font-semibold text-gray-400 transition-all hover:text-white"
+              target={nav.name.startsWith('./') && '_blank'}
+            >
+              {nav.name.startsWith('./') ? (
+                <img src={nav.name} width={25} />
+              ) : (
+                nav.name
+              )}
             </a>
           </li>
         ))}

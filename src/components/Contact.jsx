@@ -36,7 +36,7 @@ function Contact() {
   }
 
   return (
-    <div className="mx-auto mt-40 w-full max-w-[600px]">
+    <div className="mx-auto mt-40 w-full max-w-[600px]" id="contact">
       <form onSubmit={handleSubmit} id="form">
         <h1 className="my-4 text-3xl">Contact</h1>
 
