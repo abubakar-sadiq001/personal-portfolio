@@ -48,7 +48,7 @@ function Projects() {
           {projectData.map((data) => (
             <li
               key={data.name}
-              className="w-full max-w-[400px] min-w-[300px] rounded-md bg-[hsla(240,9%,9%,0.6)] p-5 max-[545px]:w-full max-[545px]:bg-yellow-500"
+              className="w-full max-w-[400px] min-w-[300px] rounded-md bg-[hsla(240,9%,9%,0.6)] p-5 max-[545px]:w-full"
               id="Plist"
             >
               <div>
