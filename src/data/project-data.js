@@ -23,7 +23,7 @@ export const projectData = [
   {
     name: 'Personal finance app',
     description:
-      'personal-finace-app is a full-stack application where you can create & manage (transactions, create budgets, pots, and recurring bills)',
+      'personal-finace-app is a full-stack application where you can create & manage (transactions, create budgets, pots, and recurring bills).',
     techStack: [
       {
         src: './nextjs.svg',
@@ -43,7 +43,7 @@ export const projectData = [
   {
     name: 'Campus website',
     description:
-      'The campus website has (5) pages, the home page, about, course, blog and contact. it was built for learning purpose only. ',
+      'The campus website has (5) pages, the home page, about, course, blog and contact. it was built for learning purpose only.',
     techStack: [
       {
         src: './html.png',
@@ -100,7 +100,7 @@ export const projectData = [
   {
     name: 'World wise',
     description:
-      'This app helps in tracking and managing your travels or trips. it has a map feature that made easy in tracking travels to any place or city in the world',
+      'This app helps in tracking and managing your travels or trips. it has a map feature that made easy in tracking travels to any place or city in the world.',
     techStack: [
       {
         src: './react.svg',
