@@ -80,6 +80,7 @@ function Projects() {
                 <div className="flex items-end justify-start gap-4">
                   <a
                     className="flex items-center rounded-md bg-white px-5 py-2 font-semibold text-gray-500"
+                    target="_blank"
                     href={data.live}
                   >
                     Live

@@ -36,7 +36,7 @@ export const projectData = [
       },
     ],
     screenshot: './screenshots/finance-app.png',
-    live: 'personal-finance-app-2zd7.vercel.app/',
+    live: 'https://personal-finance-app-2zd7.vercel.app/',
     code: 'https://github.com/abubakar-sadiq001/personal-finance-app',
   },
 
@@ -113,7 +113,7 @@ export const projectData = [
       },
     ],
     screenshot: './screenshots/world-wise.png',
-    live: 'world-wise-vert-omega.vercel.app',
+    live: 'https://world-wise-vert-omega.vercel.app',
     code: 'https://github.com/abubakar-sadiq001/world-wise',
   },
 ]
