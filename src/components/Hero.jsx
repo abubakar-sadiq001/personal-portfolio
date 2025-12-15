@@ -34,7 +34,7 @@ function Hero() {
 
   return (
     // <div className=" bg-linear-to-br from-black via-gray-900 to-black h-[500px] mt-20 overscroll-contain">
-    <div className="bg-img mt-5 flex h-[400px] justify-center">
+    <div className="bg-img mt-10 flex h-[400px] justify-center">
       <div className="flex flex-col items-center justify-center">
         <h1
           id="heading"

@@ -60,12 +60,12 @@ export const projectData = [
     code: 'https://github.com/abubakar-sadiq001/campus-website',
   },
   {
-    name: 'Rock paper scissors game',
+    name: 'Loop studio landing page',
     description:
-      'I built this game to help improve my problem solving skill and master state management logic.',
+      'Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe.',
     techStack: [
       {
-        src: './react.svg',
+        src: './html.png',
       },
       {
         src: './js.svg',
@@ -74,9 +74,28 @@ export const projectData = [
         src: './css.png',
       },
     ],
-    screenshot: './screenshots/rock-paper.png',
-    live: 'https://rock-paper-scissors-game-chi-umber.vercel.app/',
-    code: 'https://github.com/abubakar-sadiq001/rock-paper-scissors-game',
+    screenshot: './screenshots/loop-studio.png',
+    live: 'https://abubakar-sadiq001.github.io/Front-end-Mentor-Challenges/34%20loopstudios-landing-page-main/',
+    code: 'https://github.com/abubakar-sadiq001/Front-end-Mentor-Challenges',
+  },
+  {
+    name: 'Sunnyside agency page ',
+    description:
+      'A full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.',
+    techStack: [
+      {
+        src: './html.png',
+      },
+      {
+        src: './js.svg',
+      },
+      {
+        src: './css.png',
+      },
+    ],
+    screenshot: './screenshots/sunny-page.png',
+    live: 'https://abubakar-sadiq001.github.io/Front-end-Mentor-Challenges/36%20sunnyside-agency-landing-page-main/',
+    code: 'https://github.com/abubakar-sadiq001/Front-end-Mentor-Challenges',
   },
   {
     name: 'Countries list',
@@ -151,5 +170,21 @@ export const techStack = [
   {
     name: 'Supabase',
     icon: './supabase.svg',
+  },
+]
+
+// SOCIAL LINK
+export const socialLinks = [
+  {
+    link: 'https://instagram.com/scripter_js',
+    iconName: 'logo-instagram',
+  },
+  {
+    link: 'https://x.com/scripter_js',
+    iconName: 'logo-twitter',
+  },
+  {
+    link: 'https://www.linkedin.com/in/sdik-jr-364077278/',
+    iconName: 'logo-linkedin',
   },
 ]

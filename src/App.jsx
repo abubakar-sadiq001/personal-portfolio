@@ -2,7 +2,7 @@ import AppLayout from './AppLayout'
 
 function App() {
   return (
-    <div className="h-full w-full bg-black p-5 font-mono text-gray-200">
+    <div className="relative h-full w-full bg-black py-3 font-mono text-gray-200">
       <AppLayout />
     </div>
   )
