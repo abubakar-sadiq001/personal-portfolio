@@ -47,7 +47,8 @@ function Hero() {
           A passionate and self taught front-end enginner,
         </p>
         <p className="para mt-1 w-full max-w-[500px] text-center text-[18px] text-gray-400 max-[505px]:text-[12px]">
-          with strong potential to upskill in further.
+          {/* with strong potential to upskill in further. */}
+          with strong potential for further growth and development.
         </p>
       </div>
     </div>

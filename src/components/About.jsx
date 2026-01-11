@@ -67,7 +67,7 @@ function About() {
         <p className="about text-gray-400">
           {' '}
           my passion for technology is the key that's deriving my curiosity to
-          learn and upskill in further everyday.
+          learn and grow everyday.
         </p>{' '}
         <p className="about text-gray-400">
           I'm open to collaboration on all kinds of tech related projects
