@@ -43,7 +43,7 @@ export const projectData = [
   {
     name: 'Rewards Page',
     description:
-      'Rewards page is a full-stack application page with complete functionality built for a company named Flowva Hub',
+      'Rewards page is a full-stack application page with complete functionality built for a company named Flowva Hub.',
     techStack: [
       {
         src: './react.svg',
