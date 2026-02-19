@@ -41,6 +41,26 @@ export const projectData = [
   },
 
   {
+    name: 'Rewards Page',
+    description:
+      'Rewards page is a full-stack application page with complete functionality built for a company named Flowva Hub',
+    techStack: [
+      {
+        src: './react.svg',
+      },
+      {
+        src: './tailwind.png',
+      },
+      {
+        src: './supabase.svg',
+      },
+    ],
+    screenshot: './screenshots/rewards-page.png',
+    live: 'https://technical-assessment-test-5ryq.vercel.app/rewards',
+    code: 'https://github.com/abubakar-sadiq001/technical-assessment-test',
+  },
+
+  {
     name: 'Campus website',
     description:
       'The campus website has (5) pages, the home page, about, course, blog and contact. it was built for learning purpose only.',
