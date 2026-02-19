@@ -56,7 +56,7 @@ export const projectData = [
       },
     ],
     screenshot: './screenshots/rewards-page.png',
-    live: 'https://technical-assessment-test-5ryq.vercel.app/rewards',
+    live: 'https://technical-assessment-test-5ryq.vercel.app/',
     code: 'https://github.com/abubakar-sadiq001/technical-assessment-test',
   },
 
